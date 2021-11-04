@@ -1,7 +1,19 @@
 # Tridge coding assignment
 
-### 1. Calendar Problem
----
+
+## Instruction
+
+
+Install Python3: follow instructions in <https://realpython.com/installing-python>
+* From the command line: 
+  * `git clone https://github.com/lunayyko/tridge.git`
+  * `cd tridge`
+
+## Assignment
+
+
+1. Calendar Problem
+
 1 Jan 1900 was a Monday.
 Thirty days has September,
 April, June and November.
@@ -13,8 +25,8 @@ A leap year occurs on any year evenly divisible by 4, but not on a century unles
 How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31
 Dec 2000)?
 
-### 2. Base Converter
----
+2. Base Converter
+
 Language Requirement: Python. 
 Implement the `_convert` method of the following class:
 
@@ -42,8 +54,8 @@ base62_transformer =
 Transformer('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz')
 ```
 
-### 3. Dataset
----
+3. Dataset
+
 Language Requirement: None
 
 This question is an open-question to gauge your ability to understand a dataset and your
@@ -63,16 +75,17 @@ How would you approach the script of putting this information into a database ?(
 This assignment will be due before October 31, 2021 . Please make sure to submit your work before then.
 
 
-# Answer
+## Answer
 
-### 1: run `python calender.py`
+
+1: run `python calender.py`
   * Project Euler #19: How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)? 
   * Running this file will print total days and sundays which is 171
 
-### 2: run `python baseconverter.py`
+2: run `python baseconverter.py`
   * Running this file will print result of test cases.
 
-### 3:
+3: written under question
   * How would you normalize (parsing, pre-processing, grouping) this data to simplify it’s processing into a database ?
     * I'd group based on quality(First Quality, ) per same variety.
     
@@ -81,10 +94,3 @@ This assignment will be due before October 31, 2021 . Please make sure to submit
   
   * How would you approach the script of putting this information into a database ?(Concurrency, Scale, Prerequisites, etc..)
     * By writing db_uploader python file to import csv file into database.    
-
-## Instruction for running this repository
-
-Install Python3: follow instructions in <https://realpython.com/installing-python>
-* From the command line: 
-  * `git clone https://github.com/lunayyko/tridge.git`
-  * `cd tridge`
