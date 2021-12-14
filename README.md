@@ -87,7 +87,7 @@ This assignment will be due before October 31, 2021 . Please make sure to submit
 
 3: written under question
   * How would you normalize (parsing, pre-processing, grouping) this data to simplify it’s processing into a database ?
-    * I'd group based on quality(First Quality, ) per same variety.
+    * I'd group based on quality(First Quality) and variety.
     
   * What additional value can you extract from this dataset ? If you find any please explain how would you collect it (pseudo-algorithm)
     * Linear Regression graph with time as x-coordinate would make it easy to check range of price for same quality group throughout season and to spot irregular price surge or drop.
